@@ -4,9 +4,7 @@ const BancoDeDados = () => {
   const navigate = useNavigate();
   return (
     <>
-
       <div className="flex flex-wrap gap-6 justify-center items-center p-6 bg-gray-100 min-h-screen">
-
         <div className="bg-[#1d1e46] w-[350px] h-[250px] rounded-lg text-white shadow-md">
           <h2 className="flex justify-center text-xl font-bold mb-4 mt-5">Aula 1</h2>
           <div className="flex justify-center mt-28">
@@ -15,8 +13,8 @@ const BancoDeDados = () => {
               onClick={() => {
                 window.open("https://drive.google.com/uc?exporte=download&id=1JbfzlZ9B5X11JUFeinDRIO52pdRcwUBF", "_blank");
               }}
-              >
-                Baixar PTT
+            >
+              Baixar PTT
             </button>
           </div>
         </div>
@@ -66,11 +64,11 @@ const BancoDeDados = () => {
         <div className="flex justify-center w-full">
           <button
             className=" w-[200px] h-[40px] bg-vermelho-danger text-white font-medium rounded-full hover:bg-[#4e151c]"
-            onClick={()=> 
+            onClick={() =>
               navigate("/")
-          }
-            >
-              Voltar
+            }
+          >
+            Voltar
           </button>
         </div>
       </div>
