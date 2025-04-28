@@ -22,7 +22,7 @@ const PaginaInicial = () => {
                 <div className="container mx-auto py-5 px-4">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
                         {[
-                            { titulo: "Arquitetura de S.O", icone: <FaDraftingCompass size={70} />, caminho: "" },
+                            { titulo: "Arquitetura de S.O", icone: <FaDraftingCompass size={70} />, caminho: "/sistemasoperacionais" },
                             { titulo: "Segurança da informação", icone: <FaShieldAlt size={70} />, caminho: "" },
                             { titulo: "Projeto Integrador", icone: <FaProjectDiagram size={70} />, caminho: "" },
                             { titulo: "Redes de computadores", icone: <FaNetworkWired size={70} />, caminho: "" },
