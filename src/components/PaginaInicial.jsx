@@ -80,7 +80,7 @@
 //                                 }
 //                             >
 //                                 Buscar
-                                
+
 //                             </button>
 //                         </div>
 //                     </div>
@@ -140,9 +140,11 @@ const PaginaInicial = () => {
                         ))}
                     </div>
                 </div>
-                <footer className="flex justify-center items-center py-4 bg-[#1d1e46] text-white mt-10">
-                    <span>Desenvolvido de um aluno para alunos - Adriel Torres</span>
+                <footer className="w-full flex flex-col items-center px-4 py-6 bg-[#1d1e46] text-white text-center text-sm sm:text-base mt-10">
+                    <span>Desenvolvido de um aluno para alunos</span>
+                    <a className="font-semibold hover:bg-[#79121f]" href="https://perfil-links.vercel.app/">Adriel Torres</a>
                 </footer>
+
             </div>
         </>
     );

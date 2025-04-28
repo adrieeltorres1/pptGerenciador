@@ -11,7 +11,12 @@ const BancoDeDados = () => {
           <h2 className="flex justify-center text-xl font-bold mb-4 mt-5">Aula 1</h2>
           <div className="flex justify-center mt-28">
             <button
-              className=" px-6 py-3 bg-vermelho-danger text-white font-medium rounded-lg ">Baixar PTT
+              className=" px-6 py-3 bg-vermelho-danger text-white font-medium rounded-lg"
+              onClick={() => {
+                window.open("https://drive.google.com/uc?exporte=download&id=1JbfzlZ9B5X11JUFeinDRIO52pdRcwUBF", "_blank");
+              }}
+              >
+                Baixar PTT
             </button>
           </div>
         </div>
