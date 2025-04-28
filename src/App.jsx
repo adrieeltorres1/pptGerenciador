@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router";
-import BancoDeDados from "../pages/bancoDeDados";
+import BancoDeDados from "../pages/BancoDeDados";
 import PaginaInicial from "./components/PaginaInicial";
 
 const App = () => {
