@@ -49,7 +49,6 @@ const PaginaInicial = () => {
                     <span>Desenvolvido de um aluno para alunos</span>
                     <a className="font-semibold hover:bg-[#79121f]" href="https://perfil-links.vercel.app/">Adriel Torres</a>
                 </footer>
-
             </div>
         </>
     );
