@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router";
+
 const BancoDeDados = () => {
+  const navigate = useNavigate();
   return (
     <>
 
@@ -57,7 +60,12 @@ const BancoDeDados = () => {
 
         <div className="flex justify-center w-full">
           <button
-            className=" w-[200px] h-[40px] bg-vermelho-danger text-white font-medium rounded-full">Voltar
+            className=" w-[200px] h-[40px] bg-vermelho-danger text-white font-medium rounded-full"
+            onClick={()=> 
+              navigate("/")
+          }
+            >
+              Voltar
           </button>
         </div>
       </div>
