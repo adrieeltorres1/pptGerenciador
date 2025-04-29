@@ -15,8 +15,8 @@ const PaginaInicial = () => {
                     <img src="../public/assets/INBEClogo.png" className="w-[300px]" />
                 </div>
 
-                <h2 className="text-[#1d1e46] text-center text-4xl py-2 font-bold">
-                    GERENCIADOR DE PTTs
+                <h2 className="text-[#1d1e46] text-center text-3xl py-2 font-bold">
+                    GERENCIADOR DE PPTs
                 </h2>
 
                 <div className="container mx-auto py-5 px-4">
