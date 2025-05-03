@@ -6,12 +6,12 @@ const BancoDeDados = () => {
     <>
       <div className="flex flex-wrap gap-6 justify-center items-center p-6 bg-gray-100 min-h-screen">
         <div className="bg-[#1d1e46] w-[350px] h-[250px] rounded-lg text-white shadow-md">
-          <h2 className="flex justify-center text-xl font-bold mb-4 mt-5">Aula 1</h2>
+          <h2 className="flex justify-center text-xl font-bold mb-4 mt-5">Banco de Dados I</h2>
           <div className="flex justify-center mt-28">
             <button
               className=" px-6 py-3 bg-vermelho-danger text-white font-medium rounded-lg hover:bg-[#4e151c] transition-all duration-300"
               onClick={() => {
-                window.open("https://drive.google.com/uc?exporte=download&id=1JbfzlZ9B5X11JUFeinDRIO52pdRcwUBF", "_blank");
+                window.open("https://drive.google.com/uc?export=download&id=1Pu5Es8xgm40sBz6X5jKrtq6J6c9RvkXJ", "_blank");
               }}
             >
               Baixar PTT
@@ -20,30 +20,37 @@ const BancoDeDados = () => {
         </div>
 
         <div className="bg-[#1d1e46] w-[350px] h-[250px]  rounded-lg text-white shadow-md">
-          <h2 className="flex justify-center text-xl font-bold mb-4 mt-5">Aula 2</h2>
+          <h2 className="flex justify-center text-xl font-bold mb-4 mt-5">Banco de Dados II</h2>
           <div className="flex justify-center mt-28" >
             <button
-              className=" px-6 py-3 bg-vermelho-danger text-white font-medium rounded-lg hover:bg-[#4e151c]">Baixar PTT</button>
+              className=" px-6 py-3 bg-vermelho-danger text-white font-medium rounded-lg hover:bg-[#4e151c]"
+              onClick={() => {
+                window.open("https://drive.google.com/uc?export=download&id=1rqawT2HI8oQqzUeDuIpc42Av07wQQ6gl", "_blank");
+              }}
+              >
+                Baixar PTT
+                
+                </button>
           </div>
         </div>
 
-        <div className="bg-[#1d1e46] w-[350px] h-[250px]  rounded-lg text-white shadow-md">
+        {/* <div className="bg-[#1d1e46] w-[350px] h-[250px]  rounded-lg text-white shadow-md">
           <h2 className="flex justify-center text-xl font-bold mb-4 mt-5">Aula 3</h2>
           <div className="flex justify-center mt-28" >
             <button
               className=" px-6 py-3 bg-vermelho-danger text-white font-medium rounded-lg hover:bg-[#4e151c]">Baixar PTT</button>
           </div>
-        </div>
+        </div> */}
 
-        <div className="bg-[#1d1e46] w-[350px] h-[250px]  rounded-lg text-white shadow-md">
+        {/* <div className="bg-[#1d1e46] w-[350px] h-[250px]  rounded-lg text-white shadow-md">
           <h2 className="flex justify-center text-xl font-bold mb-4 mt-5">Aula 4</h2>
           <div className="flex justify-center mt-28" >
             <button
               className=" px-6 py-3 bg-vermelho-danger text-white font-medium rounded-lg hover:bg-[#4e151c]">Baixar PTT</button>
           </div>
-        </div>
+        </div> */}
 
-        <div className="bg-[#1d1e46] w-[350px] h-[250px] rounded-lg text-white shadow-md">
+        {/* <div className="bg-[#1d1e46] w-[350px] h-[250px] rounded-lg text-white shadow-md">
           <h2 className="flex justify-center text-xl font-bold mb-4 mt-5">Aula 5</h2>
           <div className="flex justify-center mt-28">
             <button
@@ -59,7 +66,7 @@ const BancoDeDados = () => {
               className=" px-6 py-3 bg-vermelho-danger text-white font-medium rounded-lg hover:bg-[#4e151c]">Baixar PTT
             </button>
           </div>
-        </div>
+        </div> */}
 
         <div className="flex justify-center w-full">
           <button
