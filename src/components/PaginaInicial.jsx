@@ -12,7 +12,7 @@ const PaginaInicial = () => {
                 }}
             >
                 <div className="flex justify-center py-4">
-                    <img src="../public/assets/INBEClogo.png" className="w-[300px]" />
+                    <img src="assets/INBEClogo.png" className="w-[300px]" />
                 </div>
 
                 <h2 className="text-[#1d1e46] text-center text-3xl py-2 font-bold">
