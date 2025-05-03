@@ -29,7 +29,6 @@ const BancoDeDados = () => {
               }}
               >
                 Baixar PTT
-                
                 </button>
           </div>
         </div>
