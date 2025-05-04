@@ -14,7 +14,7 @@ const BancoDeDados = () => {
                 window.open("https://drive.google.com/uc?export=download&id=1Pu5Es8xgm40sBz6X5jKrtq6J6c9RvkXJ", "_blank");
               }}
             >
-              Baixar PTT
+              Baixar PPT
             </button>
           </div>
         </div>
@@ -28,7 +28,7 @@ const BancoDeDados = () => {
                 window.open("https://drive.google.com/uc?export=download&id=1rqawT2HI8oQqzUeDuIpc42Av07wQQ6gl", "_blank");
               }}
               >
-                Baixar PTT
+                Baixar PPT
                 </button>
           </div>
         </div>

@@ -14,7 +14,7 @@ const SistemasOperacionais = () => {
             //     window.open("", "_blank");
             //   }}
             >
-              Baixar PTT
+              Baixar PPT
             </button>
           </div>
         </div>
@@ -28,7 +28,7 @@ const SistemasOperacionais = () => {
             //     window.open("", "_blank");
             //   }}
               >
-                Baixar PTT
+                Baixar PPT
               </button>
           </div>
         </div>
@@ -42,7 +42,7 @@ const SistemasOperacionais = () => {
             //     window.open("", "_blank");
             //   }}
               >
-                Baixar PTT
+                Baixar PPT
                 </button>
           </div>
         </div>
@@ -56,7 +56,7 @@ const SistemasOperacionais = () => {
             //     window.open("", "_blank");
             //   }}
               >
-                Baixar PTT
+                Baixar PPT
             </button>
           </div>
         </div>
@@ -70,7 +70,7 @@ const SistemasOperacionais = () => {
             //     window.open("", "_blank");
             //   }}
               >
-                Baixar PTT
+                Baixar PPT
             </button>
           </div>
         </div>
@@ -84,7 +84,7 @@ const SistemasOperacionais = () => {
             //     window.open("", "_blank");
             //   }}
               >
-                Baixar PTT
+                Baixar PPT
             </button>
           </div>
         </div>
