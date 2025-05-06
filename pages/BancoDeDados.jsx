@@ -4,7 +4,7 @@ const BancoDeDados = () => {
   const navigate = useNavigate();
   return (
     <>
-      <h2 className="flex justify-center items-center text-xl font-semibold bg-gray-100 py-8">Arquivos para estudo</h2>
+      <h2 className="sm:text-xl text-xl lg:text-3xl font-semibold bg-gray-100 py-8 text-center">Arquivos para estudo</h2>
       <div className="flex flex-wrap gap-6 justify-center items-center p-6 bg-gray-100 min-h-screen">
         <div className="bg-[#1d1e46] w-[350px] h-[250px] rounded-lg text-white shadow-md">
           <h2 className="flex justify-center text-xl font-bold mb-4 mt-5">Banco de Dados I</h2>
