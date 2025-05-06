@@ -5,7 +5,7 @@ import SistemasOperacionais from "../pages/SistemasOperacionais";
 import SegurancaDaInformacao from "../pages/SegurancaDaInformacao";
 import ProjetoIntegrador from "../pages/ProjetoIntegrador";
 import RedesDeComputadores from "../pages/RedesDeComputadores";
-import ProgramacaoComPython from "../pages/PorgramacaoComPython";
+import ProgramacaoComPython from "../pages/ProgramacaoComPython";
 
 
 const App = () => {
