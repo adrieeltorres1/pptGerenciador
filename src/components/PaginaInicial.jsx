@@ -24,9 +24,9 @@ const PaginaInicial = () => {
                         {[
                             { titulo: "Arquitetura de S.O", icone: <FaDraftingCompass size={70} />, caminho: "/sistemasoperacionais" },
                             { titulo: "Segurança da informação", icone: <FaShieldAlt size={70} />, caminho: "/segurancadainformacao" },
-                            { titulo: "Projeto Integrador", icone: <FaProjectDiagram size={70} />, caminho: "" },
-                            { titulo: "Redes de computadores", icone: <FaNetworkWired size={70} />, caminho: "" },
-                            { titulo: "Programação com Python", icone: <FaPython size={70} />, caminho: "" },
+                            { titulo: "Projeto Integrador", icone: <FaProjectDiagram size={70} />, caminho: "/projetointegrador" },
+                            { titulo: "Redes de computadores", icone: <FaNetworkWired size={70} />, caminho: "/redesdecomputadores" },
+                            { titulo: "Programação com Python", icone: <FaPython size={70} />, caminho: "/programacaocompython" },
                             { titulo: "Banco de dados", icone: <FaDatabase size={70} />, caminho: "/bancodedados" },
                         ].map((card, index) => (
                             <div
