@@ -26,7 +26,7 @@ const SistemasOperacionais = () => {
             <button
               className=" px-6 py-3 bg-vermelho-danger text-white font-medium rounded-lg hover:bg-[#4e151c]"
             onClick={() => {
-              window.open("https://drive.google.com/file/d/1JIsIRcy0Lf2Cx1WRM52yLSBVt60DeXI0/view?usp=sharing", "_blank");
+              window.open("https://drive.google.com/uc?export=download&id=1JIsIRcy0Lf2Cx1WRM52yLSBVt60DeXI0", "_blank");
             }}
             >
               Baixar PPT
