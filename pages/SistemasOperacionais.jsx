@@ -25,9 +25,9 @@ const SistemasOperacionais = () => {
           <div className="flex justify-center mt-28" >
             <button
               className=" px-6 py-3 bg-vermelho-danger text-white font-medium rounded-lg hover:bg-[#4e151c]"
-            // onClick={() => {
-            //   window.open("", "_blank");
-            // }}
+            onClick={() => {
+              window.open("https://drive.google.com/file/d/1JIsIRcy0Lf2Cx1WRM52yLSBVt60DeXI0/view?usp=sharing", "_blank");
+            }}
             >
               Baixar PPT
             </button>
