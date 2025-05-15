@@ -21,13 +21,13 @@ const SegurancaDaInformacao = () => {
                 </div>
 
                 <div className="bg-[#1d1e46] w-[350px] h-[250px]  rounded-lg text-white shadow-md">
-                    <h2 className="flex justify-center text-xl font-bold mb-4 mt-5">Pendente aula</h2>
+                    <h2 className="flex justify-center text-xl font-bold mb-4 mt-5">Aula 2</h2>
                     <div className="flex justify-center mt-28" >
                         <button
                             className=" px-6 py-3 bg-vermelho-danger text-white font-medium rounded-lg hover:bg-[#4e151c]"
-                        // onClick={() => {
-                        //   window.open("", "_blank");
-                        // }}
+                        onClick={() => {
+                          window.open("https://drive.google.com/uc?export=download&id=1QZmzlaBnctbHS96JcZnnrw8Aqb1czQLS", "_blank");
+                        }}
                         >
                             Baixar PPT
                         </button>
