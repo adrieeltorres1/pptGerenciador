@@ -18,3 +18,6 @@ Este é um gerenciador de arquivos desenvolvido com foco em facilitar os estudos
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
+
+### 🔎 Visualização do Projeto 
+![alt text](Mockup.png)
